@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>PIM: Your Member role has been activated</title>
+</head>
+<body style="margin:0;padding:0;color:#11100f;
+             font-family:Segoe UI,SegoeUI,Roboto,'Helvetica Neue',Arial,sans-serif;
+             font-size:14px;line-height:20px;">
+
+  <table role="presentation" width="100%" cellpadding="0" cellspacing="0"
+         style="border-collapse:collapse;background:#ffffff;">
+    <tr>
+      <td align="center" style="padding:24px;">
+
+        <!-- Main 640px container -->
+        <table role="presentation" width="640" cellpadding="0" cellspacing="0"
+               style="border-collapse:collapse;">
+          <!-- Tenant line + heading -->
+          <tr>
+            <td style="padding:0 24px 24px 24px;">
+
+              <h1 style="margin:0;
+                         font-family:'Segoe UI Semibold',SegoeUISemibold,Segoe UI,SegoeUI,Roboto,'Helvetica Neue',Arial,sans-serif;
+                         font-weight:600;font-size:28px;line-height:36px;">
+                Your Member role assignment has been activated for the
+                <strong>{{GroupName}}</strong> Security Group
+              </h1>
+            </td>
+          </tr>
+
+          <!-- Table section -->
+          <tr>
+            <td style="padding:12px 24px 0 24px;">
+              <p style="font-size:16px;line-height:22px;margin:0 0 16px 0;">
+                Review the details of this change:
+              </p>
+
+              <table role="presentation"
+                     style="max-width:592px;width:100%;border-collapse:collapse;
+                            font-size:16px;line-height:20px;">
+                <tr style="border-bottom:2px solid #c9c9c9;">
+                  <th align="left"
+                      style="padding:5px;
+                             font-family:'Segoe UI Semibold',SegoeUISemibold,Segoe UI,SegoeUI,Roboto,'Helvetica Neue',Arial,sans-serif;
+                             font-weight:600;">
+                    Settings
+                  </th>
+                  <th align="left"
+                      style="padding:5px;
+                             font-family:'Segoe UI Semibold',SegoeUISemibold,Segoe UI,SegoeUI,Roboto,'Helvetica Neue',Arial,sans-serif;
+                             font-weight:600;">
+                    Value
+                  </th>
+                </tr>
+
+                <tr style="border-bottom:1px solid #dedede;">
+                  <td style="padding:5px;">Operation</td>
+                  <td style="padding:5px;">Add</td>
+                </tr>
+                <tr style="border-bottom:1px solid #dedede;">
+                  <td style="padding:5px;">Role</td>
+                  <td style="padding:5px;">Member</td>
+                </tr>
+                <tr style="border-bottom:1px solid #dedede;">
+                  <td style="padding:5px;">Resource</td>
+                  <td style="padding:5px;">{{GroupName}}</td>
+                </tr>
+                <tr style="border-bottom:1px solid #dedede;">
+                  <td style="padding:5px;">Resource type</td>
+                  <td style="padding:5px;">Security Group</td>
+                </tr>
+              </table>
+            </td>
+          </tr>
+
+          <!-- Footer text -->
+          <tr>
+            <td style="padding:12px 24px 24px 24px;">
+              <p style="font-size:16px;line-height:22px;margin:16px 0 0 0;">
+                The next time you log out and back in or run
+                <strong>klist /purge</strong> from a command prompt,
+                your access will reflect this change.
+              </p>
+            </td>
+          </tr>
+        </table>
+
+      </td>
+    </tr>
+  </table>
+
+</body>
+</html>
