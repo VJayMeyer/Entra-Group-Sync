@@ -33,8 +33,8 @@
         - Use a ApplicationAccessPolicy in exchange to limit Graph Mail.send.
         - Use a new OU and fine grained AD permissions.
         - Pref enforce a PowerShell code signing block for this script.
-        - Pref store script in a secure folder where the gmsa is the owner / writer only.
-        - Pref redirect log to a seperate folder where users can read.
+        - Pref store script in a secure folder where the gmsa is the reader only
+            with write to entragroupsync.log only.
 #>
 # #########################################################################
 ## Params
