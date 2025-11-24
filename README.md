@@ -2,8 +2,6 @@
 
 Entra Group Sync keeps selected Entra ID PIM groups in sync with on-prem AD groups and sends users email when they’re added or removed from role groups.
 
-This README is the “easy button”: **clone → update variables → run deployment → tweak the sync script**.
-
 ---
 
 ## 1. Prerequisites
