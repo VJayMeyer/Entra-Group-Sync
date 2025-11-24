@@ -161,7 +161,3 @@ You should see:
 
 <img width="606" height="306" alt="image" src="https://github.com/user-attachments/assets/af441b5e-2811-48e4-9bd3-94fffae65988" />
 
-  
-- Use the log file and Splunk (if configured) for monitoring and alerting.
-
-That’s it: clone, update `Deployment.ps1`, run it, then tune `EntraGroupSync.ps1` for your naming and OU strategy.
