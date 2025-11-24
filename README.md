@@ -157,6 +157,11 @@ You should see:
 ## 7. Ongoing operations
 
 - **Add new PIM groups** following your `$StartsWith` pattern: they’ll be picked up automatically.
+- Make sure that **the activation notifcations are disabled** as the email will come from Entra Group Sync.
+
+<img width="606" height="306" alt="image" src="https://github.com/user-attachments/assets/af441b5e-2811-48e4-9bd3-94fffae65988" />
+
+  
 - Use the log file and Splunk (if configured) for monitoring and alerting.
 
 That’s it: clone, update `Deployment.ps1`, run it, then tune `EntraGroupSync.ps1` for your naming and OU strategy.
